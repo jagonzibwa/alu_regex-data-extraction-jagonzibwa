@@ -3,7 +3,7 @@ const {
     isValidHashtag,
     isValidAmount,
     isValidPhoneNumber,
-} = require('./regexAssignment');
+} = require('./regex_extractor');
 
 console.log(isValidHTMLTag('<div class="example">'));       // true
 console.log(isValidHashtag("#hello123"));                   // true
