@@ -17,3 +17,10 @@ function isValidPhoneNumber(phone) {
     const pattern = /^(\(?\d{3}\)?)[-. ](\d{3})[-.](\d{4})$/;
     return pattern.test(phone);
 }
+
+module.exports = {
+    isValidHTMLTag,
+    isValidHashtag,
+    isValidAmount,
+    isValidPhoneNumber,
+};
